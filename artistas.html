@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Artistas del Género Urbano</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+</head>
+<body>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-center" style="max-width:1500px">
+  <img class="w3-image" src="urbano.jpg" alt="Artistas Urbanos" width="1500" height="600">
+  <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center">
+    <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">MÚSICA URBANA</h1>
+    <h5 class="w3-hide-large" style="white-space:nowrap">GÉNERO URBANO</h5>
+    <h3 class="w3-hide-medium w3-hide-small">Bad Bunny, Anuel AA, Bryant Myers y más</h3>
+  </div>
+  
+  <!-- Navbar -->
+  <div class="w3-bar w3-light-grey w3-round w3-display-bottommiddle w3-hide-small" style="bottom:-16px">
+    <a href="#" class="w3-bar-item w3-button">Inicio</a>
+    <a href="#artistas" class="w3-bar-item w3-button">Artistas</a>
+    <a href="#contacto" class="w3-bar-item w3-button">Contacto</a>
+  </div>
+</header>
+
+<!-- Página contenido -->
+<div class="w3-content w3-padding-large w3-margin-top" id="artistas">
+
+  <h2 class="w3-center">Artistas Destacados</h2>
+  <p>Explora la biografía y trayectoria de los artistas más influyentes del género urbano.</p>
+  
+  <div class="w3-row-padding">
+    <div class="w3-third">
+      <img src="badbunny.jpg" alt="Bad Bunny" class="w3-image" width="100%">
+      <h3>Bad Bunny</h3>
+      <p>Conocido por su estilo innovador y letras auténticas, ha revolucionado la música latina.</p>
+    </div>
+    <div class="w3-third">
+      <img src="anuel.jpg" alt="Anuel AA" class="w3-image" width="100%">
+      <h3>Anuel AA</h3>
+      <p>Pionero del trap latino, con un sonido característico y una gran influencia en el género.</p>
+    </div>
+    <div class="w3-third">
+      <img src="bryant.jpg" alt="Bryant Myers" class="w3-image" width="100%">
+      <h3>Bryant Myers</h3>
+      <p>Uno de los primeros exponentes del trap en español, con un estilo único y auténtico.</p>
+    </div>
+  </div>
+
+</div>
+
+<!-- Contacto -->
+<div class="w3-light-grey w3-padding-large w3-padding-32 w3-margin-top" id="contacto">
+  <h3 class="w3-center">Contacto</h3>
+  <p>¿Quieres recibir actualizaciones sobre estos artistas? Escríbenos.</p>
+
+  <form action="/action_page.php" target="_blank">
+    <div class="w3-section">
+      <label>Nombre</label>
+      <input class="w3-input w3-border" type="text" required name="Nombre">
+    </div>
+    <div class="w3-section">
+      <label>Email</label>
+      <input class="w3-input w3-border" type="email" required name="Email">
+    </div>
+    <div class="w3-section">
+      <label>Mensaje</label>
+      <textarea class="w3-input w3-border" required name="Mensaje"></textarea>
+    </div>
+    <button type="submit" class="w3-button w3-block w3-dark-grey">Enviar</button>
+  </form>
+</div>
+
+</body>
+</html>
